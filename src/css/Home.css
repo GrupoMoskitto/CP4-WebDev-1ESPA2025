@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'primaria';
+    src: url(../fonts/Freshman.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'secundaria';
+    src: url(../fonts/);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+div {
+    background-color: #A1E3F9;
+
+}
