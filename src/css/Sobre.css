@@ -1,20 +1,36 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-@font-face {
-    font-family: 'primaria';
-    src: url(../fonts/Freshman.ttf);
-    font-weight: normal;
-    font-style: normal;
+div {
+    font-family: 'Poppins', sans-serif;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
 }
 
-@font-face {
-    font-family: 'secundaria';
-    src: url(../fonts/);
-    font-weight: normal;
-    font-style: normal;
+h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}}
