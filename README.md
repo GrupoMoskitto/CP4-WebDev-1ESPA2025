@@ -25,8 +25,8 @@ Este projeto foi desenvolvido como parte do curso de Web Development, com o obje
 1.  **Clone o repositório:**
 
     ```bash
-    git clone https://github.com/GrupoMoskitto/cp4-web-dev.git
-    cd cp4-web-dev
+    git clone https://github.com/GrupoMoskitto/CP4-WebDev-1ESPA2025.git
+    cd CP4-WebDev-1ESPA2025
     ```
 
 2.  **Instale as dependências:**
