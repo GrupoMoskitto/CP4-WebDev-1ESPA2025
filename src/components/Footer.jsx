@@ -4,8 +4,8 @@ import "../css/Footer.css"
 function Footer() {
     return (
       <footer>
-        <p>Telefone: 11 1234-5678</p>
-        <p>Email: contato@katoesportes.com</p>
+        <p>Telefone: 11 4002-8922</p>
+        <p>E-mail: contato@mundoesportivo.com.br</p>
       </footer>
     );
   }
