@@ -12,6 +12,8 @@
 ## Nosso Projeto:
 Este projeto foi desenvolvido como parte do curso de Web Development, com o objetivo de aplicar os conhecimentos em React, Vite e Node.js.
 
+### [Link para a visualizar página online no Vercel](https://cp4-webdev-1espa2025vercel.vercel.app/)
+
 ## Tecnologias Utilizadas
 
 -   **Frontend:**
