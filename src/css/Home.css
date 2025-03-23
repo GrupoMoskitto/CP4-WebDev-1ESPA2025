@@ -20,6 +20,30 @@ p {
   line-height: 1.6;
   margin: 20px 10%;
   word-wrap: break-word;
+  
+@font-face {
+    font-family: 'secundaria';
+    src: url(../fonts/NotoSans-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: primaria;
+    font-weight: lighter;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+
+.texto {
+    font-family: secundaria;
+    color:#2b2b2b;
+    width: 75%;
+    margin: auto;
+    padding-bottom: 45px;
 }
 
 div {
