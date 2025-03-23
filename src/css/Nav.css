@@ -1,37 +1,32 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-@font-face {
-    font-family: 'primaria';
-    src: url(../fonts/Freshman.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-@font-face {
-    font-family: 'secundaria';
-    src: url(../fonts/);
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-Nav {
-    background-color: #D1F8EF;
-    font-family: "primaria";
+nav {
+    background-color: #696969;
+    font-family: 'Poppins', sans-serif;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    padding: 20px;
+    padding: 10px 0;
 }
 
 nav a {
     text-decoration: none;
-    font-size: 25px;
-    color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+nav a.active {
+    color: #ffcc00;
 }

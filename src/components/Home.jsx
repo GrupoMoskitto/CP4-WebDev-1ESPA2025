@@ -3,6 +3,7 @@ import "../css/Home.css"
 function Home() {
     return (
       <div>
+
         <h1 class="titulo">Bem-vindo ao Mundo Esportivo</h1>
         <div class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ut odio ac magna facilisis pulvinar. Nunc pretium ex hendrerit velit fermentum, quis vestibulum magna tristique. Mauris consequat efficitur nisi et tincidunt. Nunc justo arcu, consectetur et faucibus semper, consectetur vel magna. Etiam sollicitudin mi a nunc dignissim feugiat. Duis tellus ex, varius sit amet nunc finibus, blandit accumsan lectus. In semper condimentum orci at molestie. Quisque lobortis rhoncus maximus. Proin fermentum, erat non hendrerit lobortis, magna justo feugiat urna, non placerat nisl odio vitae nulla. Phasellus mollis elementum porttitor.
 Fusce neque ipsum, tempus in diam id, interdum auctor est. Mauris et suscipit tellus, quis pulvinar est. Fusce ullamcorper dui mauris, nec elementum ligula mattis sed. Nam commodo tincidunt nunc eget volutpat. Cras malesuada quis ipsum ut auctor. Aenean sit amet mattis justo, quis faucibus sapien. Etiam molestie dictum molestie. Ut viverra tellus ut vehicula viverra. Duis quis efficitur sem. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
