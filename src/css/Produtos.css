@@ -5,99 +5,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
 
-div {
-    font-family: 'Poppins', sans-serif;
-    padding: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-h1 {
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 40px;
-    color: #333;
-}
-
-div > .produtos-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    justify-items: center;
-}
-
-// coto
-.produto {
-    width: 100%;
-    max-width: 250px;
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.produto:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
-}
-
-.produto img {
-    width: 100%;
-    height: auto;
-    border-bottom: 2px solid #f4f4f4;
-}
-
-.produto p {
-    font-size: 1.2rem;
-    color: #333;
-    padding: 15px;
-    text-align: center;
-    background-color: #f9f9f9;
-    margin: 0;
-}
-
-// end
-
-@font-face {
-    font-family: 'secundaria';
-    src: url(../fonts/NotoSans-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-
 .titulo {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: primaria;
-    font-weight: lighter;
     padding-top: 25px;
     padding-bottom: 20px;
 }
 
+
+
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-}
-
-img {
-    width: 50%;
+    column-gap: 10px;
 }
 
 .cardProduto {
-    font-family: secundaria;
     box-shadow: 0 4px 8px 0 gray;
     max-width: 300px;
-    margin: auto;
-    margin-bottom: 344px;
     text-align: center;
     background-color: white;
     border-radius: 20px;
 }
 
 .cardProduto > h1 {
-    font-size: x-large;
+    font-size: large;
+    font-weight: bold;
 }
 
 .cardProduto > img {
@@ -106,10 +40,11 @@ img {
 }
 
 .cardProduto > button {
-    margin-bottom: 20px;
     color: black;
+    font-family: 'Poppins';
     background-color: #63d6fc;
-    padding: 15px 70px;
+    padding: 15px 5px;
+    margin: auto;
     cursor: pointer;
     border-radius: 10px;
     border-color: aquamarine;
