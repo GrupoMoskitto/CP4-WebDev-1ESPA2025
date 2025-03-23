@@ -1,6 +1,5 @@
 import "../css/Sobre.css"
 
-
 function Sobre() {
     return (
       <div>
